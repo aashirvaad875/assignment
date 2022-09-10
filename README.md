@@ -5,9 +5,10 @@ This repo is a using React
 ##### - Client
 
 The client app was Tailwind.css with [Create React App](https://nextjs.org/docs/getting-started).
-✨Technologies
+✨Dependencies
 
 - React
+- Tailwind.css
 - TypeScript for less error-prone code.
 - Mui Components for tooltips and icons.
 - Axios

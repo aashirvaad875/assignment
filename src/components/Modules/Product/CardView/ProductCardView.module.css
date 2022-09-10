@@ -1,0 +1,35 @@
+.card-view {
+  @apply w-full px-5 mb-10 md:w-1/2 lg:w-full;
+}
+
+.card-view .card-view-wrapper {
+  @apply shadow-all flex rounded-md px-10 py-9 lg:px-16 gap-14;
+}
+.card-view-wrapper-hover {
+  @apply hover:bg-sky-50 hover:cursor-pointer hover:shadow-none;
+}
+
+.card-view .card-view-wrapper .image-wrapper {
+  @apply flex  w-auto hover:cursor-pointer;
+}
+.card-view .card-view-wrapper .image-wrapper div {
+  @apply w-36;
+}
+
+.card-view .card-view-wrapper .image-wrapper img {
+  @apply h-32 w-full;
+}
+
+.card-view .card-view-wrapper .content-wrapper {
+  @apply flex flex-col gap-2 relative overflow-hidden w-full;
+}
+
+.card-view .card-view-wrapper .content-wrapper h1 {
+  @apply font-bold text-2xl truncate;
+}
+.card-view .card-view-wrapper .content-wrapper label {
+  @apply text-amber-600 font-bold text-sm truncate;
+}
+.card-view .card-view-wrapper .content-wrapper p {
+  @apply text-base text-gray-700 h-13 overflow-hidden font-medium;
+}

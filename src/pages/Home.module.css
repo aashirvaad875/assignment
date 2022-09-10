@@ -1,0 +1,19 @@
+.home-container {
+  @apply lg:w-3/5 w-11/12 mx-auto pb-12 pt-3;
+}
+
+.home-container .section {
+  @apply flex flex-col gap-5;
+}
+
+.home-container .section .main-label {
+  @apply text-base text-gray-500 font-semibold px-3;
+}
+
+.home-container .section .product {
+  @apply flex flex-wrap  -mx-2;
+}
+
+.home-container .section .pagination {
+  @apply flex items-center justify-center;
+}

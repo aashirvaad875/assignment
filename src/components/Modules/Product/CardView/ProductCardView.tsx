@@ -39,6 +39,7 @@ export const ProductCardView = ({ data }: CardViewProps) => {
                 className={style['content-wrapper']}
                 onMouseEnter={() => setVisiblity(true)}
                 onMouseLeave={() => setVisiblity(false)}
+                onClick={() => setVisiblity(true)}
               >
                 <h1>{item.name}</h1>
                 <label>{item.ingredients.yeast}</label>
